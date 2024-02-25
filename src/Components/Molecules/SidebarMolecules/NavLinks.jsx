@@ -23,7 +23,7 @@ const NavLinks = () => {
                     offset={-70}
                     duration={300}
                 >
-                    <CustomTitle text='About Me' className='small-title' />
+                    <CustomTitle text='About' className='small-title' />
                 </Link>
                 <Link
                     to="project-section"

@@ -6,7 +6,7 @@ import { FaUserAlt, FaCode, FaGraduationCap, FaEnvelope } from 'react-icons/fa';
 
 
 const AboutMeInfo = () => {
-    const aboutMe = `I fell in love with web development because of its power to transform ideas into reality. Originally from Italy, I started my journey studying hospitality, then spent a couple of years in Spain. Now, I'm settled in Portugal for a little over three years,but I'm always up for new adventures and opportunities. Let's connect and create something awesome together!`;
+    const aboutMe = `I fell in love with web development because of its power to transform ideas into reality. Originally from Italy, I started my journey studying hospitality, then spent a couple of years in Spain. Now, I'm settled in Portugal for a little over three years, but I'm always up for new adventures and opportunities. Let's connect and create something awesome together!`;
 
     return (
         <div className='container-intro-about'>
