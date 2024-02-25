@@ -11,6 +11,7 @@ const IntroLandingPage = () => {
             <div className="container-text-home">
                 <CustomTitle text='Hello! My name is Riccardo!' className='big-title custom-title' />
                 <div className="quote-container">
+                    <CustomTitle text="Junior Web Developer" className='small-title m-0' />
                     <CustomParagraph text="<>" className='medium-p m-0' />
                     <CustomParagraph text="Passionate about creating innovative and efficient web solutions" className='big-p cursive m-0' />
                     <CustomParagraph text="</>" className='medium-p m-0 p-0' />

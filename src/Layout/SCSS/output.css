@@ -47,6 +47,9 @@
     font-size: 16px !important;
     margin: 0;
   }
+  .links h2 {
+    font-size: 15px !important;
+  }
 }
 .mip-form {
   border-radius: 10px;
