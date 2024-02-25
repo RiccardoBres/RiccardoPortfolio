@@ -1,0 +1,32 @@
+// mipForm.scss
+
+.mip-form {
+    border-radius: 10px;
+    box-shadow: 0 0 3px $color-dark;
+    padding: 20px;
+    width: 80%;
+}
+
+.mip-form input,
+.mip-form textarea {
+    background-color: rgba(183, 162, 137, 0.105)!important;
+    border: none;
+    color: $color-dark;
+    margin-bottom: 20px;
+}
+.mip-form input:focus,
+.mip-form textarea:focus {
+    box-shadow: 0 0 3px $color-dark;
+}
+
+.mip-form button {
+    background-color: $color-dark;
+    border: none;
+    color: $color-white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+

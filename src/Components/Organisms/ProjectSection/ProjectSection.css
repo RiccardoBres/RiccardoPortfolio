@@ -1,0 +1,19 @@
+.container-project-organism{
+    min-height: 60vh;
+}
+
+.col-project{
+    display: flex;
+    justify-content: center;
+    padding: 0!important;
+}
+.row-project-section{
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 550px){
+    .row-project-section{
+        padding: 0;
+        padding-bottom: 5rem;
+    }
+}

@@ -1,0 +1,26 @@
+.container-contact-about{
+    min-height: 60vh;
+}
+.container-contact-about h2{
+    text-align: center;
+}
+.container-contact-about p{
+    text-align: center;
+}
+.row-contact-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media(max-width:550px){
+   .container-contact-about{
+    padding-top: 5rem;
+   } 
+   .container-contact-about h2{
+    width: 100%!important;
+}
+    .container-contact-about hr{
+        width: 90%!important;
+    }
+}

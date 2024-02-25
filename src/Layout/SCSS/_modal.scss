@@ -1,0 +1,64 @@
+// styles.scss
+
+.modal-content {
+    background-color: $color-background;
+    color: $color-dark;
+    font-family: $font-primary;
+    padding: 0px 20px;
+    min-width: 800px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: $text-large-title;
+}
+
+.modal-body {
+    .container {
+        margin: 0;
+        padding: 0;
+        .row {
+            margin-bottom: 10px;
+        }
+    }
+    
+}
+.container-video video{
+    max-width: 80%;
+}
+
+.modal-footer {
+    border-top: none;
+
+    .btn {
+    padding: 10px 20px;
+    box-shadow: 0 0 3px $color-dark;
+    justify-content: flex-start;
+    color: $color-light;
+    background-color: $color-dark;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: $color-background;
+            color: $color-dark;
+        }
+    }
+}
+.modal.show .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:739px){
+    .modal-content{
+        min-width: auto;
+    }
+}

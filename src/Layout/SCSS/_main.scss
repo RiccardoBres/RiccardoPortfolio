@@ -1,0 +1,131 @@
+@import 'variables';
+@import 'mixins';
+@import 'sidebar';
+@import 'mipForm';
+@import 'modal';
+
+/* sass --watch _main.scss output.css */
+
+// Stili globali
+body {
+    font-family: $font-primary;
+    line-height: 1.6;
+}
+
+p {
+    font-family: $font-secondary;
+    color: $color-dark;
+}
+
+.cursive{
+    font-family: $font-tertiary!important;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-primary;
+    font-weight: bold !important;
+    color: $color-night!important;
+}
+
+
+a {
+    color: $color-dark!important;
+    text-decoration: none!important;
+    font-family: $font-secondary;
+
+}
+
+a:hover {
+    color: $color-light!important;
+}
+
+// Classi di animazione
+.slide-from-left {
+    @include slide-in-from-left;
+}
+
+.slide-from-right {
+    @include slide-in-from-right;
+}
+
+.fade-in {
+    @include fade-in;
+}
+
+.scale-up {
+    @include scale-up;
+}
+
+// Classi utilità
+
+.dark{
+    color: $color-night!important;
+}
+.text-center{
+    text-align: center!important;
+}
+.button {
+    padding: 10px 20px;
+    box-shadow: 0 0 3px $color-dark;
+    color: $color-dark;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &.slide-from-left {
+        @extend .slide-from-left;
+    }
+
+    &:hover {
+        background-color: $color-dark;
+        color: $color-white;
+
+    }
+    &:hover a{
+        color: $color-white!important;
+
+    }
+}
+svg{
+    color: $color-dark;  
+}
+.small-title {
+    font-size: $text-small-title;
+}
+
+.medium-title {
+    font-size: $text-medium-title;
+
+}
+
+.big-title {
+    font-size: $text-large-title;
+
+}
+
+.very-big-title {
+    font-size: $text-extra-large-title;
+
+}
+
+.small-p {
+    font-size: $text-small-p
+}
+
+.medium-p {
+    font-size: $text-medium-p
+}
+
+.big-p {
+    font-size: $text-large-p
+}
+
+.very-big-p {
+    font-size: $text-extra-large-p;
+}

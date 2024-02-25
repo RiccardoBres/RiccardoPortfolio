@@ -1,0 +1,19 @@
+.row-skill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row-skill-section h2{
+    text-align: center;
+}
+@media(max-width: 450px){
+    .container-skill-section{
+        min-height: 100vh;
+        padding-bottom: 5rem;
+    }
+    .container-skill-section p{
+        width: 90%!important;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,12 @@
+.container-home-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 550px){
+    .container-home-page {
+        min-height: 100vh;
+    }
+}

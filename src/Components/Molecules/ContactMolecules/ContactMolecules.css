@@ -1,0 +1,24 @@
+.container-intro-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.container-intro-contact h2{
+    font-size: 18px!important;
+}
+@media(max-width: 550px){
+    .container-intro-contact h2{
+        margin-bottom: 2rem;
+    }
+    .container-intro-contact button{
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+
+
+
