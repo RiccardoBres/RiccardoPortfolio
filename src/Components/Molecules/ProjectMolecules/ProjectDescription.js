@@ -31,7 +31,7 @@ const ProjectDescription = [
     },
     {
         src: MattArt,
-        title: 'Math Artist',
+        title: 'Matt Artist',
         description: 'Explore this artist page crafted for a client, utilizing the power of React and styled with SCSS for a seamless user experience.',
         technology: 'React, SCSS',
         achieved: 'Achieved efficient image loading using React-Image-Lazy-Load, enhancing performance and user engagement on the platform.',

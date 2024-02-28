@@ -14,13 +14,12 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  gap: 2rem;
 }
 .sidebar .links {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .sidebar .links h2 {
   cursor: pointer;
@@ -232,7 +231,7 @@ svg {
 }
 
 .small-title {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .medium-title {

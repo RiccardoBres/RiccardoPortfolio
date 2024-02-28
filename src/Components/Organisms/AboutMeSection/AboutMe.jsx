@@ -35,7 +35,7 @@ const AboutMe = () => {
                 <Container fluid >
                     <Row className='row-contact-about'>
                         <CustomTitle text='About' className='mb-4' />
-                        <CustomTitle className='small-title w-50' text="I'm a Junior Web Developer who's passionate about creating impactful digital experiences" />
+                        <CustomTitle className='small-title w-50' text="I fell in love with web development because of its power to transform ideas into reality." />
                         <div className="d-flex justify-content-center align-items-center">
                             <hr className='w-50' />
                         </div>

@@ -28,12 +28,11 @@ const Skill = () => {
     return (
         <div ref={ref} id='skill-section'>
             <motion.div 
-                className='container-skill-section'
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
                 variants={variants}
             >
-                <Container fluid >
+                <Container fluid className='container-skill-section'>
                     <Row className='row-skill-section'>
                         <CustomTitle text='Skills' className='medium-title my-3' />
                         <CustomTitle text='Hover over the skill icons to see a breakdown of my proficiency level.' className='small-title my-3' />
