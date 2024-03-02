@@ -8,6 +8,7 @@
     justify-content: flex-end;
     padding: 20px 30px;
     z-index: 999;
+    transition: all 0.8s ease;
 
     .nav-body {
         display: flex;
@@ -37,6 +38,7 @@
     
 }
 
+
 @media(max-width: 450px){
     .sidebar{
         padding: 15px 20px;
@@ -50,6 +52,15 @@
     }
     .links h2{
         font-size: 15px!important;
+    }
+    .sidebar.scrolled {
+        background-color: #806c8bb9!important; 
+    }
+    .sidebar.scrolled h2{
+        color: #F7EFE5!important;
+    }
+    .sidebar.scrolled svg{
+        color: #F7EFE5!important;
     }
 }
 

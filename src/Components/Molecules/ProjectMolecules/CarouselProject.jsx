@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import ProjectDescription from './ProjectDescription';
 import CustomTitle from '../../Atoms/CustomTitle';
-import { SiNextcloud } from "react-icons/si";
+import { IoInformation } from "react-icons/io5";
 import ModalInfoProject from './ModalInfoProject';
-import { HiMiniInformationCircle } from "react-icons/hi2";
+import { HiOutlineLockOpen } from "react-icons/hi2";
+import { IoInformationCircleOutline } from "react-icons/io5";
+import { RxEyeOpen } from "react-icons/rx";
 import './CarouselProject.css';
 
 const CarouselProject = () => {
@@ -29,11 +31,11 @@ const CarouselProject = () => {
           <img className="background-img" src={project.src} alt="" />
           <div className="card-content">
             <div className="profile-image" onClick={() => handleIconClick(index)}>
-              <SiNextcloud />
+              <RxEyeOpen />
             </div>
             <CustomTitle text={project.title} className="small-title m-0" />
-            {index == activeIndex ?  <div className="profile-image" onClick={handleInfoIconClick}>
-              <HiMiniInformationCircle className='info-icon'/>
+            {index == activeIndex ? <div className="profile-image" onClick={handleInfoIconClick}>
+              <IoInformationCircleOutline className='info-icon' />
             </div> : null}
           </div>
           <div className="backdrop"></div>
@@ -52,6 +54,7 @@ const CarouselProject = () => {
           video={ProjectDescription[activeIndex].video}
           href={ProjectDescription[activeIndex].href}
           demoAccount={ProjectDescription[activeIndex].demoAccount}
+          status={ProjectDescription[activeIndex].status}
         />
       )}
     </div>

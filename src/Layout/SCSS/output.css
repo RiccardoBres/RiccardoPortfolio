@@ -8,6 +8,7 @@
   justify-content: flex-end;
   padding: 20px 30px;
   z-index: 999;
+  transition: all 0.8s ease;
 }
 .sidebar .nav-body {
   display: flex;
@@ -48,6 +49,15 @@
   }
   .links h2 {
     font-size: 15px !important;
+  }
+  .sidebar.scrolled {
+    background-color: rgba(128, 108, 139, 0.7254901961) !important;
+  }
+  .sidebar.scrolled h2 {
+    color: #F7EFE5 !important;
+  }
+  .sidebar.scrolled svg {
+    color: #F7EFE5 !important;
   }
 }
 .mip-form {

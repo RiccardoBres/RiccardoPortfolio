@@ -91,13 +91,10 @@
     inset: 20px;
     top: auto;
     left: 0px;
-    justify-content: center;
-    gap: 5px;
     justify-content: space-around;
     border-radius: 50px;
     height: auto;
     padding: 10px;
-    color: black!important;
 }
 
 .card-content * {
@@ -126,11 +123,10 @@
 
 .profile-image > svg {
     stroke: #fefefe;
+    font-size: 29px;
 }
 
-.card-carousel.active .profile-image > svg {
-    stroke: rgb(110, 252, 205);
-}
+
 
 .card-content > .title {
     white-space: pre;
@@ -151,11 +147,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100px;
+    height: 120px;
     z-index: 0;
-    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
-}
-.info-icon{
-    font-size: 20px;
-    color: #F7EFE5!important;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
 }

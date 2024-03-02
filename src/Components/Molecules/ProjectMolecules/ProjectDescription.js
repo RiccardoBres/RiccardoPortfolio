@@ -16,7 +16,8 @@ const ProjectDescription = [
         achieved: 'Data persistence through Redux.',
         coffee: '3',
         href: 'https://alvaromusic.netlify.app',
-        demoAccount: 'Demo Account: demo123@demo.com / demo1234',
+        demoAccount: 'Demo Account: not available',
+        status: 'Deployed',
     },
     {
         src: ConsultWise,
@@ -28,6 +29,7 @@ const ProjectDescription = [
         coffee: '5',
         href: '',
         demoAccount: 'Demo Account: not available',
+        status: 'Coming Soon',
     },
     {
         src: MattArt,
@@ -38,6 +40,7 @@ const ProjectDescription = [
         coffee: '1',
         href: 'https://mattiart.netlify.app/',
         demoAccount: '',
+        status: 'Updating',
     },
 ];
 

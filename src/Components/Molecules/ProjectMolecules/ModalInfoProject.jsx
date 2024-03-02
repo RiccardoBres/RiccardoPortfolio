@@ -73,18 +73,20 @@ const ModalInfoProject = (props) => {
                 </Container>
             </Modal.Body>
             <Modal.Footer className='justify-content-start'>
-                {props.href !== '' ? (
-                    <CustomButton className='button' text={
-                        <a href={props.href} target='_blank' rel='noreferrer'>Launch</a>
-                    } />
-                ) : (
+                {props.status === 'Deployed' ? (
+                    <CustomButton className='button' text={<a href={props.href} target='_blank' rel='noreferrer'>Launch</a>} />
+                ) : props.status === 'Coming Soon' && props.video !== '' ? (
                     <>
                         <CustomButton text='Video' className='button' onClick={handleVideo} />
                         <CustomButton text='Description' className='button' onClick={handleDescription} />
                     </>
-
+                ) : (
+                    <>
+                        <CustomTitle text={props.status } className='small-title' />
+                    </>
                 )}
             </Modal.Footer>
+
         </Modal>
     );
 };
