@@ -49,7 +49,7 @@ const ModalInfoProject = (props) => {
                             <Row>
                                 <Col xs={12} md={12}>
                                     <CustomTitle text='Description' className='small-title' />
-                                    <CustomParagraph text={props.description} className='medium-p' />
+                                    <CustomParagraph text={props.description} className='medium-p description-modal' />
                                 </Col>
                                 <Col xs={12} md={6}>
                                     <CustomTitle text='Technology' className='small-title' />
