@@ -1,6 +1,7 @@
 import AlvaroSound from '../../../Layout/ASSETS/Project1.png'
 import ConsultWise from '../../../Layout/ASSETS/ConsultWise.png'
 import MattArt from '../../../Layout/ASSETS/MattArt.png';
+import DiscoveryArtSpace from '../../../Layout/ASSETS/DiscoveryArtSpace.png';
 import ConsultWiseVideo from '../../../Layout/ASSETS/ConsultWiseVideo.mp4'
 
 
@@ -41,6 +42,17 @@ const ProjectDescription = [
         href: 'https://mattiart.netlify.app/',
         demoAccount: '',
         status: 'Updating',
+    },
+    {
+        src: DiscoveryArtSpace,
+        title: 'Discovery Art Space',
+        description: "Experience our city's artistic scene like never before with our captivating landing page. Featuring a gallery of past artists and events, this project provides a glimpse into our vibrant community. Please note that image loading may take a bit longer due to the richness of visual content. Stay tuned for the full launch later this year, when the page will truly come to life.",
+        technology: 'React, SCSS, Framer Motion',
+        achieved: 'Achieved a seamless user experience with React-Router-Dom, and animated components with Framer Motion.',
+        coffee: '2',
+        href: 'https://discoveryartspace.netlify.app/',
+        demoAccount: '',
+        status: 'Deployed',
     },
 ];
 
