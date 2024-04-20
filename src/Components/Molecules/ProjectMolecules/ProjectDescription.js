@@ -2,7 +2,8 @@ import AlvaroSound from '../../../Layout/ASSETS/Project1.png'
 import ConsultWise from '../../../Layout/ASSETS/ConsultWise.png'
 import MattArt from '../../../Layout/ASSETS/MattArt.png';
 import DiscoveryArtSpace from '../../../Layout/ASSETS/DiscoveryArtSpace.png';
-import ConsultWiseVideo from '../../../Layout/ASSETS/ConsultWiseVideo.mp4'
+import ConsultWiseVideo from '../../../Layout/ASSETS/ConsultWiseVideo.mp4';
+import DavideWang from '../../../Layout/ASSETS/DavideProject.png';
 
 
 
@@ -52,6 +53,17 @@ const ProjectDescription = [
         coffee: '2',
         href: 'https://discoveryartspace.netlify.app/',
         demoAccount: '',
+        status: 'Deployed',
+    },
+    {
+        src: DavideWang,
+        title: 'Bartender Page',
+        description: "Bartender Page is a full-stack web application that enables users to follow their favorite bartender, track upcoming events, and access information about available services. The primary focus was on creating an appealing design concept for the page. Additionally, the administrator has the ability to add new events and manage them.",
+        technology: 'MongoDB, Express, React, NodeJS, JWT, EmailJS',
+        achieved: "Acquired proficiency in crafting a design that meets the client's needs, reflecting the bartender's culture and ethos.",
+        coffee: '2',
+        href: 'https://davidewang.netlify.app/',
+        demoAccount: 'Demo Account: demo123demo.com / demo123',
         status: 'Deployed',
     },
 ];
