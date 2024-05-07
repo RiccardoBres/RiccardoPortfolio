@@ -26,7 +26,7 @@ const ProjectDescription = [
         video: ConsultWiseVideo,
         title: 'Consult Wise',
         description: 'Transform your consulting experience with Consult Wise, a full stack web app utilizing AI for personalized advice. Powered with ChatGPT, it gathers detailed user data for tailored responses and holds potential for further AI refinement.This web application is still in the early stages of development. The footer links are nonexistent, as it is not associated with an actual company. If you are interested, you have the option to create a fake account with a fictitious email to fully understand how the information gathering works and simulate an interaction with the application. Alternatively, you can log in using the demo account.',
-        technology: 'MongoDB, Express, React, NodeJS, Passport.js, JWT, ChatGPT', 
+        technology: 'MongoDB, Express, React, NodeJS, Passport.js, JWT, OpenAI', 
         achieved: 'Session tracking with a unique ID with passport-js.',
         coffee: '5',
         href: 'https://consultwise.netlify.app/',
@@ -58,7 +58,7 @@ const ProjectDescription = [
     {
         src: DavideWang,
         title: 'Bartender Page',
-        description: "Bartender Page is a full-stack web application that enables users to follow their favorite bartender, track upcoming events, and access information about available services. The primary focus was on creating an appealing design concept for the page. Additionally, the administrator has the ability to add new events and manage them.",
+        description: "This webpage has been developed with the aim of representing the online presence of a bartender. The application provides visitors with the opportunity to gather information about the bartender by exploring the landing page and various other pages that detail the services offered and the events the bartender has participated in. Additionally, the webpage features a private section managed by the administrator, where they can upload the events they have attended. All images on the page are placeholders provided by a friend to create the page layout. The primary focus of this project was to find an engaging layout that complements the application's concept.",
         technology: 'MongoDB, Express, React, NodeJS, JWT, EmailJS',
         achieved: "Acquired proficiency in crafting a design that meets the client's needs, reflecting the bartender's culture and ethos.",
         coffee: '2',
