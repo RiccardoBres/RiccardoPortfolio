@@ -18,7 +18,7 @@ const ProjectDescription = [
         achieved: 'Achieved data persistence with Redux, integrated Stripe for secure transactions, and structured emails using EmailJS.',
         coffee: '4',
         href: 'https://alvaromusic.netlify.app',
-        demoAccount: 'Demo Account: demo123demo.com / demo123',
+        demoAccount: 'Demo Account: demo123@demo.com / demo123',
         status: 'Deployed',
     },
     {
@@ -30,7 +30,7 @@ const ProjectDescription = [
         achieved: 'Session tracking with a unique ID with passport-js.',
         coffee: '5',
         href: 'https://consultwise.netlify.app/',
-        demoAccount: 'Demo Account: demo123demo.com / demo123',
+        demoAccount: 'Demo Account: demo123@demo.com / demo123',
         status: 'Deployed',
     },
     {
@@ -63,7 +63,7 @@ const ProjectDescription = [
         achieved: "Acquired proficiency in crafting a design that meets the client's needs, reflecting the bartender's culture and ethos.",
         coffee: '2',
         href: 'https://davidewang.netlify.app/',
-        demoAccount: 'Demo Account: demo123demo.com / demo123',
+        demoAccount: 'Demo Account: demo123@demo.com / demo123',
         status: 'Deployed',
     },
 ];
